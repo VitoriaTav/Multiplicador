@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(48, 48, 48);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 33vw;
+    color: rgb(239, 235, 228);
+}
+
+section{
+    background-color: antiquewhite;
+    color: black;
+    padding: 10px;
+    border-radius: 12px;
+    width: 50%;
+    margin: auto;
+}
+
+#button{
+    background-color: rgb(12, 112, 242);
+    color: rgb(239, 235, 228);
+    border: none;
+    width: 130px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.info{
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    height: 20px;
+    width: 200px;
+}
+
+.but:hover{
+    transform: translateY(-3px);
+    transition-duration: 0,8s;
+}
